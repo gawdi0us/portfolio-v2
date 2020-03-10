@@ -1,13 +1,18 @@
 import React from 'react';
-import { Top } from './components/Top';
+import { Nav } from './components/Nav';
 import { Header } from './components/Header'
 
 function App() {
+
+  const containerStyle = {
+    width: "100%",
+  }
+
   return (
     <div className="App">
-      <div className="container">
-      <Top />
-      <Header />
+      <div className="container" style={containerStyle}>
+      <Nav />
+      {/* <Header /> */}
     </div>
     </div>
   );
