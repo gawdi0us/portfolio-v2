@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav } from './components/Nav';
 import { Header } from './components/Header'
+import { Portfolio } from './components/Portfolio'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <div className="container" style={containerStyle}>
       <Nav />
       <Header />
+      <Portfolio />
     </div>
     </div>
   );

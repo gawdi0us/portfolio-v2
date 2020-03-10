@@ -1,6 +1,5 @@
 import React from 'react';
-import Gitlogo from '../img/github-icon.png';
-import Linkedlogo from '../img/linkedin-icon.png';
+
 
 export const Nav = () => {
 	// STYLES
@@ -9,7 +8,7 @@ export const Nav = () => {
 		display: 'flex',
 		justifyContent: 'space-between',
 		backgroundColor: '#084887',
-		height: '5rem',
+		height: '7rem',
 		width: '100%',
 		fontFamily: 'BioRhyme',
 		color: 'white',
@@ -19,7 +18,8 @@ export const Nav = () => {
 
 	const titleStyle = {
 		fontSize: '2rem',
-		marginLeft: '1rem'
+		marginLeft: '1rem',
+
 	};
 
 	const menuStyle = {
@@ -31,11 +31,13 @@ export const Nav = () => {
 			{' '}
 			{/* Navigation */}
 			<div className="title" style={titleStyle}>
-				Ron Hughes
-				<br />Full-Stack Web Developer
+				<span>Ron Hughes
+			 
+				</span>
+				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home - Portfolio - LinkedIn - Github - Resume
+				Home - Portfolio - Skills - LinkedIn - Github - Resume
 			</div>
 		</div>
 	);
