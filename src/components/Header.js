@@ -5,20 +5,26 @@ export const Header = () => {
 
     const headerStyle = {
 		display: 'flex',
-		justifyContent: 'center',
+		justifyContent: 'space-between',
 		backgroundColor: '#14213D',
-		height: '10rem',
-		width: '100%',
-		fontFamily: 'BioRhyme',
-		fontSize: '4rem',
+		width: '70%',
 		color: 'white',
-		alignItems: 'center',
-		borderBottom: '9px solid whitesmoke'
+		margin: '5rem auto',
+		fontFamily: 'BioRhyme',
+
+	
 	};
 
 return (
     <>
-        <div style={headerStyle}></div>
+        <div style={headerStyle}>
+
+			<div>PHOTO GOES HERE</div>
+			<div>ABOUT ME SECTION</div>
+
+		</div>
+
+	<hr />
     </>
 )
 }

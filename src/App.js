@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className="container" style={containerStyle}>
       <Nav />
-      {/* <Header /> */}
+      <Header />
     </div>
     </div>
   );

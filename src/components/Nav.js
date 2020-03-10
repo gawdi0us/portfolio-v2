@@ -6,7 +6,7 @@ export const Nav = () => {
 	// STYLES
 
 	const navStyle = {
-        display: 'flex',
+		display: 'flex',
 		justifyContent: 'space-between',
 		backgroundColor: '#084887',
 		height: '5rem',
@@ -18,27 +18,25 @@ export const Nav = () => {
 	};
 
 	const titleStyle = {
-		fontSize: '2rem'
-	}
+		fontSize: '2rem',
+		marginLeft: '1rem'
+	};
 
 	const menuStyle = {
 		fontSize: '1rem'
-	}
+	};
 
 	return (
-
-			<div className="nav" style={navStyle}> {/* Navigation */}
-			<div className="title" style={titleStyle}>Ron Hughes
-			<br />Full-Stack Web Developer
+		<div className="nav" style={navStyle}>
+			{' '}
+			{/* Navigation */}
+			<div className="title" style={titleStyle}>
+				Ron Hughes
+				<br />Full-Stack Web Developer
 			</div>
-
 			<div className="nav-menu" style={menuStyle}>
 				Home - Portfolio - LinkedIn - Github - Resume
 			</div>
-             
-                </div>
-				
-		
-	
+		</div>
 	);
 };
