@@ -8,12 +8,11 @@ export const Header = () => {
 		display: 'flex',
 		justifyContent: 'space-between',
 		// backgroundColor: '#14213D',
-		backgroundColor: 'red',
+		backgroundColor: 'white',
 		width: '70%',
-		color: 'white',
+		color: 'red',
 		margin: '5rem auto',
 		fontFamily: 'BioRhyme',
-		borderRadius: "50%"
 
 	};
 

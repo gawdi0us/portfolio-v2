@@ -34,13 +34,13 @@ export const Nav = () => {
 			{' '}
 			{/* Navigation */}
 			<div className="title" style={titleStyle}>
-				<span>Ron Hughes
+				<span>ronhughes.dev
 			 
 				</span>
 				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home - Portfolio - Skills -<a href="#resume">Resume</a>
+				Home - Portfolio - Skills - Contact
 			</div>
 		</div>
 	);

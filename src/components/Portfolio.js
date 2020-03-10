@@ -18,7 +18,7 @@ export const Portfolio = () => {
         backgroundColor: "#8F5D89",
         border: "2px solid #ffffff",
         alignItems: "center",
-        listStyleType: "none"
+        
 	
 	};
 
