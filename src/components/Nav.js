@@ -5,6 +5,8 @@ export const Nav = () => {
 	// STYLES
 
 	const navStyle = {
+		position: '-webkit-sticky',
+  		position: 'sticky',
 		display: 'flex',
 		justifyContent: 'space-between',
 		backgroundColor: '#084887',

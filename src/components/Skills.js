@@ -14,12 +14,29 @@ export const Skills = () => {
 	
 	};
 
+	const skills = {
+		marginLeft: "50px"
+	}
+
     return (
         <>
 <div style={skillStyle}>
 
-<div>SKILLS GO HERE</div>
+<div className="skills-one" style={skills}>SKILLS GO HERE</div>
 
+
+
+
+<div className="skills-two" style={skills}>SKILLS GO HERE</div>
+
+
+
+<div className="skills-three" style={skills}>SKILLS GO HERE</div>
+
+
+
+
+<div className="skills-four" style={skills}>SKILLS GO HERE</div>
 
 </div>
 
