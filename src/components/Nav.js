@@ -25,7 +25,8 @@ export const Nav = () => {
 	};
 
 	const menuStyle = {
-		fontSize: '1rem'
+		fontSize: '1rem',
+		marginRight: '1rem'
 	};
 
 	return (
@@ -39,7 +40,7 @@ export const Nav = () => {
 				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home - Portfolio - Skills - LinkedIn - Github - Resume
+				Home - Portfolio - Skills -<a href="#resume">Resume</a>
 			</div>
 		</div>
 	);

@@ -4,9 +4,8 @@ export const Skills = () => {
 
     const skillStyle = {
 		display: 'flex',
-		justifyContent: 'space-between',
-		backgroundColor: '#14213D',
-		width: '70%',
+		justifyContent: 'space-evenly',
+		width: '100%',
 		color: 'white',
 		margin: '5rem auto',
 		fontFamily: 'BioRhyme',
@@ -14,30 +13,43 @@ export const Skills = () => {
 	
 	};
 
-	const skills = {
-		marginLeft: "50px"
-	}
+	const skill = {
+		
+		backgroundColor: "#8F5D89"
+
+	
+	};
+
+
 
     return (
         <>
 <div style={skillStyle}>
 
-<div className="skills-one" style={skills}>SKILLS GO HERE</div>
+<div className="skills-one" style={skill}>
+
+<ul>
+	<li>HTML5/CSS3</li>
+	<li>Vanilla Javascript</li>
+	<li>Flexbox/CSS Grid</li>
+</ul>
+</div>
+
+<div className="skills-two" ><ul>
+	<li>HTML5/CSS3</li>
+	<li>Vanilla Javascript</li>
+	<li>Visual Studio Code</li>
+</ul></div>
 
 
+<div className="skills-two" >
 
-
-<div className="skills-two" style={skills}>SKILLS GO HERE</div>
-
-
-
-<div className="skills-three" style={skills}>SKILLS GO HERE</div>
-
-
-
-
-<div className="skills-four" style={skills}>SKILLS GO HERE</div>
-
+<ul>
+	<li>HTML5/CSS3</li>
+	<li>Vanilla Javascript</li>
+	<li></li>
+</ul>
+</div>
 </div>
 
 <hr></hr>

@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Portfolio } from './components/Portfolio';
 import { Skills } from './components/Skills';
 
+
 function App() {
 
   const containerStyle = {
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <Portfolio />
       <Skills />
+
     </div>
     </div>
   );

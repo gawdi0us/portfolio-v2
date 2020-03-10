@@ -19,7 +19,9 @@ export const Header = () => {
 
 	const photoStyle = {
 
-		borderRadius: "50%"
+		borderRadius: "50%",
+		width: '340px',
+		height: '340px',
 
 	}
 
@@ -31,7 +33,10 @@ return (
 				<img src={HandsomeMan} style={photoStyle}/>
 			</div>
 			<div className="about-me">
-				I am a Full-Stack Web Developer
+				I am a Full-Stack Web Developer with a natural knack for programming and design. 
+				I consider myself to be an avid learner and I am always looking for new things to learn and 
+				experience. 
+				
 			</div>
 
 		</div>
