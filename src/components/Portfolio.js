@@ -1,4 +1,5 @@
 import React from 'react'
+import Placeholder from '../img/placeholder.png'
 
 export const Portfolio = () => {
 
@@ -35,14 +36,16 @@ boxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
 <div className="skills-one" style={skill}>
 <div style={{ backgroundColor: "black"}}>RhymeBlock</div>
 
-THIS IS A REACT APPICATION THAT I BUILT 
-<div style={{ backgroundColor: "black"}}>React, Redux, Axios</div>
+<img src={Placeholder} />
+<div style={{ backgroundColor: "black"}}>
+	Tools: 	React, Redux, Axios
+	</div>
 </div>
 
 <div className="skills-two" style={skill}>
 <div style={{ backgroundColor: "black"}}>RhymeBlock</div>
 
-THIS IS A REACT APPICATION THAT I BUILT
+<img src={Placeholder} />
 
 <div style={{ backgroundColor: "black"}}>Hello</div>
 </div>
@@ -50,7 +53,7 @@ THIS IS A REACT APPICATION THAT I BUILT
 
 <div className="skills-three" style={skill}>
 <div style={{ backgroundColor: "black"}}>RhymeBlock</div>
-THIS IS A REACT APPICATION THAT I BUILT
+<img src={Placeholder} />
 
 
 <div style={{ backgroundColor: "black"}}>Hello</div>

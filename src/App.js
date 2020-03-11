@@ -16,8 +16,9 @@ function App() {
       <div className="container" style={containerStyle}>
       <Nav />
       <Header />
-      <Portfolio />
       <Skills />
+      <Portfolio />
+     
 
     </div>
     </div>
