@@ -20,9 +20,8 @@ export const Header = () => {
 
 	const photoStyle = {
 		webkitBoxshadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
-mozBoxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
-boxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
-
+		mozBoxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
+		boxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
 		borderRadius: "40px 0px 40px 0px",
 		width: '340px',
 		height: '340px',
@@ -48,7 +47,7 @@ return (
 				I consider myself to be an avid learner and I am always looking for new things to learn and 
 				experience. 
 				<br /> <br /><div>
-
+				Find me on social media:<br />
 				<img src={Giticon} /> <img src={Linkedicon} />	
 				</div>
 				

@@ -3,6 +3,7 @@ import { Nav } from './components/Nav';
 import { Header } from './components/Header';
 import { Portfolio } from './components/Portfolio';
 import { Skills } from './components/Skills';
+import { Gitstats } from './components/Gitstats';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Header />
       <Skills />
       <Portfolio />
+      <Gitstats />
      
 
     </div>
