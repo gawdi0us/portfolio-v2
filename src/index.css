@@ -5,12 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFFFFF;
+  background-color: #61A5D5;
 }
 ul {
   list-style-type: none
 }
 
+.zoom {
+  /* padding: 4px; */
+  /* background-color: green; */
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(.5); /* IE 9 */
+  -webkit-transform: scale(.5); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

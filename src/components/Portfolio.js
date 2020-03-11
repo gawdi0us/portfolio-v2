@@ -4,11 +4,11 @@ export const Portfolio = () => {
 
     const skillStyle = {
 		display: 'flex',
-		justifyContent: 'space-evenly',
+		justifyContent: 'space-between',
 		width: '100%',
 		color: 'white',
 		margin: '5rem auto',
-		fontFamily: 'BioRhyme',
+		fontFamily: 'Poppins',
 
 	
 	};
@@ -17,7 +17,8 @@ export const Portfolio = () => {
 		
         backgroundColor: "#8F5D89",
         border: "2px solid #ffffff",
-        alignItems: "center",
+		alignItems: "center",
+
         
 	
 	};
@@ -30,28 +31,25 @@ export const Portfolio = () => {
 
 <div className="skills-one" style={skill}>
 
-<ul>
-	<li>HTML5/CSS3</li>
-	<li>Vanilla Javascript</li>
-	<li>Flexbox/CSS Grid</li>
-</ul>
+THIS IS A REACT APPICATION THAT I BUILT 
+<div style={{ backgroundColor: "black"}}>Hello</div>
 </div>
-
-<div className="skills-two" style={skill}><ul>
-	<li>HTML5/CSS3</li>
-	<li>Vanilla Javascript</li>
-	<li>Visual Studio Code</li>
-</ul></div>
-
 
 <div className="skills-two" style={skill}>
 
-<ul>
-	<li>HTML5/CSS3</li>
-	<li>Vanilla Javascript</li>
-	<li></li>
-</ul>
+THIS IS A REACT APPICATION THAT I BUILT FROM SCRATCH USING XYZ AND 123
+
+<div style={{ backgroundColor: "black"}}>Hello</div>
 </div>
+
+
+<div className="skills-two" style={skill}>
+THIS IS A REACT APPICATION THAT I BUILT FROM SCRATCH USING XYZ AND 123
+
+
+<div style={{ backgroundColor: "black"}}>Hello</div>
+</div>
+
 </div>
 
 <hr></hr>
