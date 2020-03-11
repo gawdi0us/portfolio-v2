@@ -1,6 +1,7 @@
 import React from 'react';
 import HandsomeMan from '../img/handsome-man.jpg'
-
+import Giticon from '../img/github-icon.png'
+import Linkedicon from '../img/linkedin-icon.png'
 
 export const Header = () => {
 
@@ -18,6 +19,9 @@ export const Header = () => {
 	};
 
 	const photoStyle = {
+		webkitBoxshadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
+mozBoxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
+boxShadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
 
 		borderRadius: "40px 0px 40px 0px",
 		width: '340px',
@@ -28,7 +32,7 @@ export const Header = () => {
 
 	const aboutStyle = {
 		marginLeft: "2.5rem",
-		border: "2px solid whitesmoke",
+		border: "px solid whitesmoke",
 		borderRadius: "2px 2px 2px 2px",
 	}
 
@@ -43,8 +47,11 @@ return (
 				I am a Full-Stack Web Developer with a natural knack for programming and design. 
 				I consider myself to be an avid learner and I am always looking for new things to learn and 
 				experience. 
-				<br /> <br />
-				social icons go here
+				<br /> <br /><div>
+
+				<img src={Giticon} /> <img src={Linkedicon} />	
+				</div>
+				
 				
 			</div>
 

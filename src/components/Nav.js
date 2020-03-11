@@ -40,7 +40,7 @@ export const Nav = () => {
 				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home - Portfolio - Skills - Contact
+				Home - Portfolio - Skills - Git Stats - Contact
 			</div>
 		</div>
 	);
