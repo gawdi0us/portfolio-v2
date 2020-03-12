@@ -28,11 +28,13 @@
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: rgb(27, 26, 26);
     color: black;
+
   }
   
   .flip-card-back {
+
     background-color: #2980b9;
     color: white;
     transform: rotateY(180deg);
