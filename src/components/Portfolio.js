@@ -41,7 +41,7 @@ export const Portfolio = () => {
   return (
     <>
     <div className="portfolio container" style={portfolioContainer}>
-    <center><h1>SKILLS</h1></center>
+    <center><h1>Portfolio</h1></center>
       <div className="portcontainer" style={portfolioStyle}>
         <div className="skills-two" style={skill}>
           <div style={{ backgroundColor: "black" }}>
@@ -75,11 +75,13 @@ export const Portfolio = () => {
         <div className="skills-two" style={skill}>
           <div style={{ backgroundColor: "black" }}>
             <h1>Rick and Morty API</h1>
+            Displays JSON data from Rick and Morty API
           </div>
 
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
+                
               <img src={Rickicon} className="bookr" width="390px" height="235px"/>
       <img src={Macicon} className="macicon"alt="Avatar" width="480px" height="470px" />
               </div>
@@ -87,15 +89,12 @@ export const Portfolio = () => {
                 <br /> <br /> <br />
                 <h2> REACT / JSX / SEMANTICUI / AXIOS</h2>
                 <p>
-                  Built with Bootstrap 4, this project was my first build week
-                  at Lambda School. This was my first time using Bootstrap and I
-                  had a lot of fun learning how to use it. Working on this
-                  project gave me a solid familiarity with Bootstrap, and has
-                  helped me learn other frameworks like Semantic UI.
+                  Built with React and SemanticUI
                 </p>{" "}
                 <br /> <br />
                 <a href="">
                   <h3>Github Repo</h3>
+                  <a href="#">https://rickandmorty.ronhughes.dev</a>
                 </a>
               </div>
             </div>
@@ -106,6 +105,7 @@ export const Portfolio = () => {
         <div className="skills-two" style={skill}>
 <div style={{ backgroundColor: "black" }}>
   <h1>BOOKR</h1>
+  A mock website using Bootstrap 4 for displaying books
 </div>
 
 <div className="flip-card">

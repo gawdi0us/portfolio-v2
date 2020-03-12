@@ -24,6 +24,7 @@ export const Skills = () => {
 	const skillsContainer = {
 		// height: "1000px",
 		backgroundColor: '#15398C',
+		color: 'white'
 	
 	};
 
