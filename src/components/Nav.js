@@ -15,8 +15,7 @@ export const Nav = () => {
 		fontFamily: 'BioRhyme',
 		color: 'white',
 		alignItems: 'center',
-		borderBottom: '6px dotted black',
-		borderTop: '6px dotted black'
+		borderBottom: '10px double #000',
 	};
 
 	const titleStyle = {
@@ -26,13 +25,12 @@ export const Nav = () => {
 	};
 
 	const menuStyle = {
-		fontSize: '1rem',
+		fontSize: '1.4rem',
 		marginRight: '1rem'
 	};
 
 	return (
 		<div className="nav" style={navStyle}>
-			{' '}
 			{/* Navigation */}
 			<div className="title" style={titleStyle}>
 				<span>ronhughes.dev

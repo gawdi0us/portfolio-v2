@@ -19,7 +19,8 @@ export const Header = () => {
 	const headerContainer = {
 		// height: "1000px",
 		backgroundColor: '#FFFFFF',
-		marginBottom: "-30px"
+		marginBottom: "-20px",
+		borderBottom: '6px solid black',
 	
 	};
 
@@ -39,6 +40,7 @@ export const Header = () => {
 		marginTop: "50px",
 		marginLeft: "2.5rem",
 		borderRadius: "2px 2px 2px 2px",
+
 	}
 
 return (
@@ -51,8 +53,7 @@ return (
 			</div>
 			<div className="about-me" style={aboutStyle}>
 				I am a Full-Stack Web Developer with a natural knack for programming and design. 
-				I consider myself to be an avid learner and I am always looking for new things to learn and 
-				experience. 
+				
 				<br /> <br /><div>
 				Find me on social media:<br />
 				<img src={Giticon} /> <img src={Linkedicon} />	

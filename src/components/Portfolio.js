@@ -40,12 +40,13 @@ export const Portfolio = () => {
 
   return (
     <>
-    <div className="portfolio container" style={portfolioContainer}>
+    <div id="Porfolio" className="portfolio container" style={portfolioContainer}>
     <center><h1>Portfolio</h1></center>
       <div className="portcontainer" style={portfolioStyle}>
         <div className="skills-two" style={skill}>
           <div style={{ backgroundColor: "black" }}>
             <h1>RhymeBlock</h1>
+            Find rhyming words for your poetry and music lyrics
           </div>
 
           <div className="flip-card">
