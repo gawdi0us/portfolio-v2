@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Portfolio } from './components/Portfolio';
 import { Skills } from './components/Skills';
 import { Gitstats } from './components/Gitstats';
-
+import { Footer } from './components/Footer';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
       <Skills />
       <Portfolio />
       {/* <Gitstats /> */}
-     
+     <Footer />
 
     </div>
     </div>

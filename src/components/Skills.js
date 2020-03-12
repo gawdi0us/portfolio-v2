@@ -7,7 +7,7 @@ export const Skills = () => {
 		justifyContent: 'space-evenly',
 		width: '100%',
 		color: 'white',
-		margin: '0rem auto',
+		margin: '0 auto',
 		fontFamily: 'BioRhyme',
 		borderBottom: '6px solid black',
 		marginBottom: "-20px"
