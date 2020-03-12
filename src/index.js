@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './global/mediaqueries.css'
+import './global/flip.css'
 import App from './App';
 
 

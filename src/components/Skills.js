@@ -31,13 +31,13 @@ export const Skills = () => {
 <ul>
 	<li>HTML5/CSS3</li>
 	<li>Vanilla Javascript</li>
-	<li>Flexbox/CSS Grid</li>
+	<li>SASS/LESS</li>
 </ul>
 </div>
 
 <div className="skills-two" ><ul>
-	<li>HTML5/CSS3</li>
-	<li>Vanilla Javascript</li>
+	<li>React</li>
+	<li></li>
 	<li>Visual Studio Code</li>
 </ul></div>
 
