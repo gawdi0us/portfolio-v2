@@ -6,10 +6,10 @@ export const Skills = () => {
 		display: 'flex',
 		justifyContent: 'space-evenly',
 		width: '100%',
-		color: 'black',
+		color: 'white',
 		margin: '0rem auto',
 		fontFamily: 'BioRhyme',
-		borderBottom: '6px dotted black',
+		borderBottom: '6px solid black',
 		marginBottom: "-20px"
 	};
 
@@ -23,7 +23,7 @@ export const Skills = () => {
 
 	const skillsContainer = {
 		// height: "1000px",
-		backgroundColor: 'blue',
+		backgroundColor: '#15398C',
 	
 	};
 

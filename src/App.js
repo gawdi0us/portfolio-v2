@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Skills />
       <Portfolio />
-      <Gitstats />
+      {/* <Gitstats /> */}
      
 
     </div>
