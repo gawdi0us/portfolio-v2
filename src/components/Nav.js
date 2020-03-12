@@ -15,7 +15,8 @@ export const Nav = () => {
 		fontFamily: 'BioRhyme',
 		color: 'white',
 		alignItems: 'center',
-		borderBottom: '6px solid'
+		borderBottom: '6px dotted black',
+		borderTop: '6px dotted black'
 	};
 
 	const titleStyle = {
@@ -40,7 +41,11 @@ export const Nav = () => {
 				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home - Portfolio - Skills - Git Stats - Contact
+				Home -  
+				<a href="#Portfolio">Portfolio</a> - 
+				Skills - 
+				Git Stats - 
+				Contact
 			</div>
 		</div>
 	);

@@ -10,12 +10,17 @@ export const Header = () => {
 		justifyContent: 'space-between',
 		// backgroundColor: '#084887',
 		width: '70%',
-		// height: '10rem',
 		color: 'black',
-		margin: '5rem auto',
+		margin: '0rem auto',
 		fontFamily: 'Poppins',
 		fontSize: '2rem',
 
+	};
+	const headerContainer = {
+		// height: "1000px",
+		backgroundColor: '#FFFFFF',
+		marginBottom: "-30px"
+	
 	};
 
 	const photoStyle = {
@@ -25,18 +30,20 @@ export const Header = () => {
 		borderRadius: "40px 0px 40px 0px",
 		width: '340px',
 		height: '340px',
-		border: "10px solid whitesmoke"
+		border: "10px solid whitesmoke",
+		marginTop: "50px"
 
 	}
 
 	const aboutStyle = {
+		marginTop: "50px",
 		marginLeft: "2.5rem",
-		border: "px solid whitesmoke",
 		borderRadius: "2px 2px 2px 2px",
 	}
 
 return (
     <>
+	<div className="header container" style={headerContainer}>
         <div style={headerStyle}>
 
 			<div className="header-photo">
@@ -55,8 +62,8 @@ return (
 			</div>
 
 		</div>
+		</div>
 
-	<hr />
     </>
 )
 }
