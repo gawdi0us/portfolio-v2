@@ -19,8 +19,8 @@ export const Header = () => {
 	const headerContainer = {
 		// height: "1000px",
 		backgroundColor: '#FFFFFF',
-		marginBottom: "-20px",
-		borderBottom: '6px solid black',
+		marginBottom: "-32px",
+		borderBottom: '20px solid black',
 	
 	};
 
@@ -52,8 +52,7 @@ return (
 				<img className="zoom" src={HandsomeMan} style={photoStyle}/>
 			</div>
 			<div className="about-me" style={aboutStyle}>
-				I am a Full-Stack Web Developer with a natural knack for programming and design. 
-				
+			I am a full-stack web developer and serial learner. Check out my projects below.
 				<br /> <br /><div>
 				Find me on social media:<br />
 				<img src={Giticon} /> <img src={Linkedicon} />	

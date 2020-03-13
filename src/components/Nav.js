@@ -1,4 +1,6 @@
 import React from 'react';
+import "../global/navigation.css";
+
 
 
 export const Nav = () => {
@@ -15,7 +17,7 @@ export const Nav = () => {
 		fontFamily: 'BioRhyme',
 		color: 'white',
 		alignItems: 'center',
-		borderBottom: '10px double #000',
+		borderBottom: '10px solid #95190C',
 	};
 
 	const titleStyle = {
@@ -39,11 +41,11 @@ export const Nav = () => {
 				
 			</div>
 			<div className="nav-menu" style={menuStyle}>
-				Home -  
-				<a href="#Portfolio">Portfolio</a> - 
-				Skills - 
-				Git Stats - 
-				Contact
+				<a href="">Home</a>
+				<a href="#Portfolio" className="zoom">Projects</a>
+				<a href="">Skills</a> 
+				<a href="">Git Stats</a>
+				<a href="">Contact</a>
 			</div>
 		</div>
 	);

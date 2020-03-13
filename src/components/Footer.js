@@ -7,7 +7,12 @@ export const Footer = () => {
 
         <>
         
-        <div style={{ backgroundColor: "black", width: "100%", height: "100px"}}></div>
+        <div style={{ borderTop: "17px solid #95190C", backgroundColor: "black", width: "100%", verticalAlign: "bottom", height: "100px", textAlign: "center", color: "white", fontSize: "1.2rem"}}>
+            <footer>
+                Coded & Designed by Ron Hughes 
+            </footer>
+
+        </div>
         
         </>
     )

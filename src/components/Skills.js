@@ -33,7 +33,7 @@ export const Skills = () => {
     return (
         <>
 <div className="skills container" style={skillsContainer}>
-<center><h1>SKILLS</h1></center>
+<center><h1 style={{ fontSize: "3rem"}}>SKILLS</h1></center>
 <div style={skillStyle}>
 
 

@@ -2,7 +2,8 @@ import React from "react";
 import Placeholder from "../img/placeholder.png";
 import Macicon from "../img/mac-icon.png";
 import Bookricon from "../img/bookr-back.png";
-import Rickicon from "../img/rick-back.png"
+import Rickicon from "../img/rick-back.png";
+import Porticon from "../img/portfolio-icon.png";
 import "../global/screen.css"
 
 export const Portfolio = () => {
@@ -41,7 +42,9 @@ export const Portfolio = () => {
   return (
     <>
     <div id="Porfolio" className="portfolio container" style={portfolioContainer}>
-    <center><h1>Portfolio</h1></center>
+    <center><h1 style={{ fontSize: "3rem"}}>  PROJECTS</h1>
+
+    </center>
       <div className="portcontainer" style={portfolioStyle}>
         <div className="skills-two" style={skill}>
           <div style={{ backgroundColor: "black" }}>
@@ -52,7 +55,7 @@ export const Portfolio = () => {
           <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-              <img src={Bookricon} className="bookr" width="390px" height="235px"/>
+              <img src={Bookricon} className="bookr" width="390px" height="250px"/>
       <img src={Macicon} className="macicon"alt="Avatar" width="480px" height="470px" />
               </div>
               <div className="flip-card-back">
@@ -63,7 +66,7 @@ export const Portfolio = () => {
                   had a lot of fun learning how to use it. Working on this
                   project gave me a solid familiarity with Bootstrap, and has
                   helped me learn other frameworks as well.
-                </p>{" "}
+                </p>
                 <br /> <br />
                 <a href="">
                   <h3>Github Repo</h3>
@@ -83,20 +86,20 @@ export const Portfolio = () => {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 
-              <img src={Rickicon} className="bookr" width="390px" height="235px"/>
-      <img src={Macicon} className="macicon"alt="Avatar" width="480px" height="470px" />
+              <img src={Rickicon} className="bookr" width="390px" height="250px"/>
+      <img src={Macicon} className="macicon"alt="Avatar" width="480px" height="460px" />
               </div>
               <div className="flip-card-back">
                 <br /> <br /> <br />
                 <h2> REACT / JSX / SEMANTICUI / AXIOS</h2>
                 <p>
                   Built with React and SemanticUI
-                </p>{" "}
+                </p>
                 <br /> <br />
-                <a href="">
-                  <h3>Github Repo</h3>
+                <a href="https://github.com/ron-hughes/Sprint-Challenge-Single-Page-Apps"> <h3>Github Repo</h3></a>
+                    DEMO PAGE<br />
                   <a href="#">https://rickandmorty.ronhughes.dev</a>
-                </a>
+          
               </div>
             </div>
           </div>
