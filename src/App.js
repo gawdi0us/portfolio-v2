@@ -8,15 +8,13 @@ import { Footer } from './components/Footer';
 
 function App() {
 
-  const containerStyle = {
-    width: "100%",
-  }
+
 
   return (
     <div className="App">
-      <div className="container" style={containerStyle}>
+      <div className="container">
       <Nav />
-      <Header />
+       <Header />
       <Skills />
       <Portfolio />
       {/* <Gitstats /> */}

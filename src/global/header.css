@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    color: black;
+    margin: 0 250px 30px 250px;
+    font-family: Poppins;
+    font-size: 2rem;
+    background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 1298px) {
+    body {
+      max-width: 100%;
+  
+    }
+
+    .header {
+        display: block;
+        margin: 0 auto;
+    }
+  .header img {
+      margin-left: 2rem;
+  }
+}    

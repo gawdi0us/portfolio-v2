@@ -1,17 +1,9 @@
 import React from 'react'
+import "../global/skills.css";
 
 export const Skills = () => {
 
-    const skillStyle = {
-		display: 'flex',
-		justifyContent: 'space-evenly',
-		width: '100%',
-		color: 'white',
-		margin: '0 auto',
-		fontFamily: 'BioRhyme',
-		borderBottom: '6px solid black',
-		marginBottom: "-20px"
-	};
+
 
 	const skill = {
 		
@@ -33,8 +25,8 @@ export const Skills = () => {
     return (
         <>
 <div className="skills container" style={skillsContainer}>
-<center><h1 style={{ fontSize: "3rem"}}>SKILLS</h1></center>
-<div style={skillStyle}>
+<div className="skillstyle">
+<h1 style={{ fontSize: "3rem"}}>SKILLS</h1> <br />
 
 
 <div className="skills-one" style={skill}>

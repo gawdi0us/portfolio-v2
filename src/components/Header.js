@@ -2,27 +2,11 @@ import React from 'react';
 import HandsomeMan from '../img/handsome-man.jpg'
 import Giticon from '../img/github-icon.png'
 import Linkedicon from '../img/linkedin-icon.png'
+import "../global/header.css";
+
 
 export const Header = () => {
 
-    const headerStyle = {
-		display: 'flex',
-		justifyContent: 'space-between',
-		// backgroundColor: '#084887',
-		width: '70%',
-		color: 'black',
-		margin: '0rem auto',
-		fontFamily: 'Poppins',
-		fontSize: '2rem',
-
-	};
-	const headerContainer = {
-		// height: "1000px",
-		backgroundColor: '#FFFFFF',
-		marginBottom: "-32px",
-		borderBottom: '20px solid black',
-	
-	};
 
 	const photoStyle = {
 		webkitBoxshadow: '0px 3px 40px 0px rgba(0,0,0,0.89)',
@@ -45,25 +29,23 @@ export const Header = () => {
 
 return (
     <>
-	<div className="header container" style={headerContainer}>
-        <div style={headerStyle}>
-
-			<div className="header-photo">
+	<div className="header">
+		
 				<img className="zoom" src={HandsomeMan} style={photoStyle}/>
-			</div>
+	
 			<div className="about-me" style={aboutStyle}>
-			I am a full-stack web developer and serial learner. Check out my projects below.
+			I am a full-stack web developer and serial learner. I enjoy working with React, Bootstrap, and Blockchain technology. 
+			Need a developer? Feel free to contact me.
 				<br /> <br /><div>
 				Find me on social media:<br />
-				<img src={Giticon} /> <img src={Linkedicon} />	
+				<a href="https://www.github.com/ron-hughes"><img src={Giticon} /></a> <a href="https://www.linkedin.com/in/ron-hughes/"><img src={Linkedicon} /></a>	
 				</div>
 				
 				
 			</div>
 
 		</div>
-		</div>
-
+		
     </>
 )
 }
