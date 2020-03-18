@@ -23,6 +23,7 @@
 body {
   margin: 0;
   background-color: #1098F7;
+  /* background-color: white; */
 }
 
 /**
@@ -358,15 +359,15 @@ ul {
   /* padding: 4px; */
   /* background-color: green; */
   transition: transform .2s;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 800px;
   margin: 0 auto;
 }
 
 .zoom:hover {
   -ms-transform: scale(.5); /* IE 9 */
   -webkit-transform: scale(.5); /* Safari 3-8 */
-  transform: scale(1.2); 
+  transform: scale(1.1); 
 }
 
 code {
@@ -405,7 +406,7 @@ a:hover {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
 }
 
 
@@ -415,21 +416,6 @@ a:hover {
 
   }
 
-
-.header-photo img {
-  width: 250px!important;
-  height: 250px!important;
-
-
-}
-  .headerstyle {
-    display: flex!important;
-    flex-direction: column!important;
-  }
-  .skillstyle {
-    display: block!important;
-    text-align: center!important;
-  }
 
 }
 

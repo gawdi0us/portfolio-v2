@@ -51,7 +51,7 @@ background-color: #1098F7;
     }
     .projects {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         justify-content: center;
         align-items: center;
     }

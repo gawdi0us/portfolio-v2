@@ -1,0 +1,36 @@
+#circle div {
+	background-color: #000;
+	float: left;
+	height: 60px;
+	margin-left: 10px;
+	width: 60px;
+    --webkit-animation-name: circle_move;
+    animation-name: circle_move;
+	--webkit-border-radius: 60px;
+	--webkit-animation-duration: 4s;
+	--webkit-animation-iteration-count: infinite;
+	--webkit-animation-direction: linear;
+	opacity: 0.5;
+	}
+	div#one{
+	 	--webkit-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+	 }
+	div#two{
+	 	--webkit-animation-delay: 1.2s;
+	}
+
+	div#three{
+	 	--webkit-animation-delay: 2s;
+	}
+    
+    @keyframes circle_move{
+		0% { background-color:#000; }
+		30%{ opacity:1;
+		  background-color:#ffea00;
+		    }
+		60%	{ background-color:#000; }	
+		100% { 
+			opacity:0.5;
+			background-color:#000; }
+	      }
