@@ -408,7 +408,7 @@ a:hover {
   /* background-color: whitesmoke; */
 }
 
-.Site {
+.App{
   display: flex;
   min-height: 100vh;
   flex-direction: column;
