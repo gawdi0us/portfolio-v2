@@ -1,13 +1,15 @@
 import React from "react";
+import FadeIn from 'react-fade-in';
 import "../global/skills.css";
-import "../global/circles.css";
+
 
 export const Skills = () => {
   return (
     <>
       <div className="skill-container">
 		  <p style={{ fontSize: "80px", color: "black"}}>Skills</p>
-        <div className="skills-left">
+        <FadeIn  transitionDuration={ 2700 }>
+		<div className="skills-left">
 		<ul>
 		<li>HTML/CSS3</li>	
 		<li>Vanilla Javascript</li>	
@@ -15,6 +17,8 @@ export const Skills = () => {
 		
 		</ul>
 		</div>
+		</FadeIn>
+		<FadeIn  transitionDuration={ 4200 }>
 		<div className="skills-right">
 		<ul>
 		<li>React/Redux</li>
@@ -22,7 +26,7 @@ export const Skills = () => {
 		<li>Blockchain</li>
 		</ul>
 		</div>
-
+		</FadeIn>
 	
       </div>
     </>

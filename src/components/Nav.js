@@ -27,7 +27,6 @@ export const Nav = () => {
 				<nav>	
 				<a href="">Home</a>
 				<a href="#Portfolio">Projects</a>
-				<a href="">Skills</a> 
 				<a href="">Git Stats</a>
 				<a href="">Contact</a>
 				</nav>

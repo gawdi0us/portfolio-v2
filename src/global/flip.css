@@ -1,6 +1,6 @@
 .flip-card {
     background-color: transparent;
-    width: 479px;
+    width: 500px;
     height: 479px;
     perspective: 1000px;
     /* pointer-events:none; */

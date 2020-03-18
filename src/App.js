@@ -5,7 +5,7 @@ import { Portfolio } from './components/Portfolio';
 import { Skills } from './components/Skills';
 // import { Gitstats } from './components/Gitstats';
 import { Footer } from './components/Footer';
-
+import FadeIn from 'react-fade-in';
 function App() {
 
 
@@ -14,8 +14,11 @@ function App() {
     <div className="App">
       <div className="container">
       <Nav />
+    
        <Header />
+ 
       <Skills />
+      
       {/* <Portfolio /> */}
      
      <Footer />

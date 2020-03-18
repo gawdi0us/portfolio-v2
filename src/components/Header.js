@@ -18,7 +18,7 @@ export const Header = () => {
 
 return (
     <>
-	 <Particles height={ 200 }/>
+	 <Particles height={ 600 }/>
 	<div className="header">
 		<div>
 		<img src={HandsomeMan} className="zoom" />

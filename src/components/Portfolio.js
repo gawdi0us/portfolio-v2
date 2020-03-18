@@ -25,8 +25,8 @@ export const Portfolio = () => {
           <div className="flip-card"> 
             <div className="flip-card-inner">
               <div className="flip-card-front">
-              <img src={Bookricon} className="bookr" width="390px" height="250px"/>
-      <img src={Macicon} className="macicon" alt="Avatar" width="480px" height="470px" />
+              <img src={Bookricon} className="bookr" width="100%" height="400px"/>
+      {/* <img src={Macicon} className="macicon" alt="Avatar" width="480px" height="470px" /> */}
               </div>
               <div className="flip-card-back">
                 <h2>TOOLS: HTML5 / CSS3 / BOOTSTRAP 4</h2>

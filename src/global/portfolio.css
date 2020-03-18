@@ -4,7 +4,7 @@ flex-flow: row wrap;
 justify-content: space-around;
 max-width: 100%;
 color: white;
-margin: 5rem auto;
+/* margin: 5rem auto; */
 font-family: Poppins;
 margin-bottom: 20px;
 background-color: #1098F7;
@@ -49,6 +49,7 @@ background-color: #1098F7;
     .flip-card-inner {
         width: 400px;
     }
+
     .projects {
         display: flex;
         /* flex-direction: column; */
