@@ -1,22 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "../global/navigation.css";
 // import "../global/mediaqueries.css";
 
 
 
 export const Nav = () => {
-	// STYLES
-
-	const titleStyle = {
-		fontSize: '2rem',
-		marginLeft: '1rem',
-
-	};
-
-	const menuStyle = {
-		fontSize: '1.4rem',
-		marginRight: '1rem'
-	};
 
 	return (
 		
@@ -25,8 +14,9 @@ export const Nav = () => {
 <span>ronhughes.dev</span>
 
 				<nav>	
-				<a href="">Home</a>
-				<a href="#Portfolio">Projects</a>
+				<Link to="/">Home</Link>
+				<Link to="/projects">Projects</Link>
+				<Link to="/skills">Skills</Link>
 				<a href="">Git Stats</a>
 				<a href="">Contact</a>
 				</nav>

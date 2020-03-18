@@ -404,9 +404,14 @@ a:hover {
 }
 
 .container {
-  max-width: 100%;
-  margin: 0 auto;
+ flex: 1;
   /* background-color: whitesmoke; */
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 

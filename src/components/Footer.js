@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../global/footer.css'
 
 export const Footer = () => {
 
@@ -7,7 +7,7 @@ export const Footer = () => {
 
         <>
         
-        <div style={{ borderTop: "17px solid #95190C", backgroundColor: "black", width: "100%", verticalAlign: "bottom", height: "100px", textAlign: "center", color: "white", fontSize: "1.2rem", marginTop: "-20px"}}>
+        <div  className="footer">
             <footer>
                 I ❤ React, 
                 Coded & Designed by Ron Hughes 
