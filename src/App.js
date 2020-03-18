@@ -17,9 +17,9 @@ function App() {
           <Nav />
           <Header />
           <Route>
-            <Route path="/skills" component={Skills} />
+            <Route exact path="/skills" component={Skills} />
 
-            <Route path="/projects" component={Portfolio} />
+            <Route exact path="/projects" component={Portfolio} />
           </Route>
         </div>
       </div>
