@@ -24,8 +24,8 @@ return (
 		<img src={HandsomeMan} className="zoom" />
 		</div>
 	<div className="about-me">
-		<p> Ron Hughes - Full-Stack Software Engineer </p> 
-		<p> I am a full-stack web developer and serial learner. I enjoy working with React, Bootstrap, and Blockchain technology. Need a developer? Feel free to contact me. </p> <br />
+		<p> Ron Hughes is a Father, and Full-Stack Software Engineer </p> 
+		<p> I am also a lover of Star Wars and serial learner. I enjoy working with React, Bootstrap, and Blockchain technology. Need a developer? Feel free to contact me. </p> <br />
 
 <img src={Giticon} /> <img src={Linkedicon} />
 </div>

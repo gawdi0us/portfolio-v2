@@ -10,33 +10,25 @@ import "../global/portfolio.css";
 export const Portfolio = () => {
   return (
     <>
-      <div className="react-transition swipe-down">
+      <div className="react-transition swipe-down" style={{animationDuration: '1s'}}>
         <div className="projects">
           <div className="payload">
-            <div style={{ backgroundColor: "black" }}>
+            <div className="title" style={{ backgroundColor: "black" }}>
               <h1>RhymeBlock</h1>
-              Find rhyming words for your poetry and music lyrics
+              A Blockstack blockchain dApp for writing poetry and music.  
             </div>
 
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
-                  <img
-                    src={Bookricon}
-                    className="bookr"
-                    width="100%"
-                    height="400px"
-                  />
+                <p>In Development</p>
                   {/* <img src={Macicon} className="macicon" alt="Avatar" width="480px" height="470px" /> */}
                 </div>
                 <div className="flip-card-back">
-                  <h2>TOOLS: HTML5 / CSS3 / BOOTSTRAP 4</h2>
+                <br /> <br /> <br />
+                  <h2>Blockstack / React / Redux / Datamuse API</h2>
                   <p>
-                    Built with Bootstrap 4, this project was my first build week
-                    at Lambda School. This was my first time using Bootstrap and
-                    I had a lot of fun learning how to use it. Working on this
-                    project gave me a solid familiarity with Bootstrap, and has
-                    helped me learn other frameworks as well.
+                  RhymeBlock is a blockchain application built with the Blockstack API. 
                   </p>
                   <br /> <br />
                   <a href="">
@@ -48,7 +40,7 @@ export const Portfolio = () => {
           </div>
 
           <div className="payload">
-            <div style={{ backgroundColor: "black" }}>
+            <div className="title" style={{ backgroundColor: "black" }}>
               <h1>Rick and Morty API</h1>
               Displays JSON data from Rick and Morty API
             </div>
@@ -62,13 +54,7 @@ export const Portfolio = () => {
                     width="390px"
                     height="250px"
                   />
-                  <img
-                    src={Macicon}
-                    className="macicon"
-                    alt="Avatar"
-                    width="480px"
-                    height="460px"
-                  />
+            
                 </div>
                 <div className="flip-card-back">
                   <br /> <br /> <br />
@@ -95,7 +81,7 @@ export const Portfolio = () => {
           </div>
 
           <div className="payload">
-            <div style={{ backgroundColor: "black" }}>
+            <div className="title" style={{ backgroundColor: "black" }}>
               <h1>BOOKR</h1>A mock website using Bootstrap 4 for displaying
               books
             </div>
@@ -109,13 +95,7 @@ export const Portfolio = () => {
                     width="390px"
                     height="235px"
                   />
-                  <img
-                    src={Macicon}
-                    className="macicon"
-                    alt="Avatar"
-                    width="480px"
-                    height="470px"
-                  />
+             
                 </div>
                 <div className="flip-card-back">
                   <br />

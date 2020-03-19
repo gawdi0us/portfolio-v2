@@ -7,6 +7,10 @@ export const Contact = () => {
     <>
       <div className="contact-container">
 
+
+      <form>
+        <input type="text" />
+      </form>
       </div>
     </>
   );

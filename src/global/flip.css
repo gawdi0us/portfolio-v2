@@ -29,10 +29,13 @@
   }
   
   .flip-card-front {
-    /* background-color: rgb(27, 26, 26); */
-    color: black;
+    background-color: rgb(27, 26, 26);
+    color: white;
     pointer-events:none;
-
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4rem
   }
   
   .flip-card-back {

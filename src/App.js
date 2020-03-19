@@ -5,7 +5,9 @@ import { Header } from "./components/Header";
 import { Portfolio } from "./components/Portfolio";
 import { Skills } from "./components/Skills";
 // import { Gitstats } from './components/Gitstats';
+import { Contact } from './components/Contact';
 import { Footer } from "./components/Footer";
+
 import FadeIn from "react-fade-in";
 import "./global/react-transitions.css";
 
@@ -23,6 +25,7 @@ function App() {
           </Route>
         </div>
       </div>
+      <Contact />
       <Footer />
     </Router>
   );
