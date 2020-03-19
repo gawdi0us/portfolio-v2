@@ -17,12 +17,19 @@ function App() {
       <div className="App">
         <div className="container">
           <Nav />
+          
           <Header />
-          <Route>
-            <Route exact path="/skills" component={Skills} />
-
-            <Route exact path="/projects" component={Portfolio} />
+          
+          
+          <Switch>
+          <Route exact path="/skills">
+          <Skills />
           </Route>
+          <Route exact path="/projects">
+          <Portfolio />
+          </Route>
+            </Switch>
+       
         </div>
       </div>
       <Contact />
