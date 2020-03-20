@@ -6,6 +6,7 @@ import "../global/skills.css";
 export const Skills = () => {
   return (
     <>
+	<div className="react-transition swipe-down" style={{animationDuration: '1s'}}>
       <div className="skill-container">
 		  <p style={{ fontSize: "80px", color: "black"}}>Skills</p>
         <FadeIn  transitionDuration={ 2700 }>
@@ -27,8 +28,9 @@ export const Skills = () => {
 		</ul>
 		</div>
 		</FadeIn>
-	
+	</div>
       </div>
+	  
     </>
   );
 };

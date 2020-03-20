@@ -86,11 +86,13 @@ padding: 10px;
 .skills-left{
   max-width: 100%;
   font-size: 1rem;
+  width: 20rem;
 }
 
 .skills-right {
   max-width: 100%;
   font-size: 1rem;
+  width: 20rem;
 }
 
 
