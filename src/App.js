@@ -21,7 +21,7 @@ function App() {
           <Header />
           
           
-          {/* <Switch>
+         <Switch>
           <Route exact path="/skills">
           <Skills />
           </Route>
@@ -33,7 +33,7 @@ function App() {
             <Contact />
             </Route>
             </Switch>
-        */}
+   
         </div>
       </div>
      
