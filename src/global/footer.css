@@ -8,5 +8,7 @@
     text-align: center; 
     color: white;
     font-size: 1.2rem; 
-    margin-top: -20pl
+    /* margin-top: -20pl */
+    position: relative;
+    bottom: 0px;
 }

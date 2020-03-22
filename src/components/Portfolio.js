@@ -11,10 +11,12 @@ export const Portfolio = () => {
   return (
     <>
       <div className="react-transition swipe-down" style={{animationDuration: '1s'}}>
+     
         <div className="projects">
+         
           <div className="payload">
             <div className="title" style={{ backgroundColor: "black" }}>
-              <h1>RhymeBlock</h1>
+              <h1>WritersBlock</h1>
               A Blockstack blockchain dApp for writing poetry and music.  
             </div>
 

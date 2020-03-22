@@ -9,13 +9,6 @@ import "../global/header.css";
 export const Header = () => {
 
 
-	const aboutStyle = {
-		marginTop: "50px",
-		marginLeft: "2.5rem",
-		borderRadius: "2px 2px 2px 2px",
-
-	}
-
 return (
     <>
 	 <Particles height={ 600 }/>

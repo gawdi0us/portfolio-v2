@@ -21,18 +21,22 @@ function App() {
           <Header />
           
           
-          <Switch>
+          {/* <Switch>
           <Route exact path="/skills">
           <Skills />
           </Route>
           <Route exact path="/projects">
           <Portfolio />
           </Route>
+
+          <Route exact path="/contact">
+            <Contact />
+            </Route>
             </Switch>
-       
+        */}
         </div>
       </div>
-      <Contact />
+     
       <Footer />
     </Router>
   );
