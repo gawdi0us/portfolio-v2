@@ -1,6 +1,3 @@
 # REDIRECTS
 
-/home               /
-/skills             /skills
-/projects           /projects
-/contact            /contact
+/* /index.html 200
