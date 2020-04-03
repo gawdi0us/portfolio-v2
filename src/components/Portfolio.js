@@ -16,8 +16,8 @@ export const Portfolio = () => {
          
           <div className="payload">
             <div className="title" style={{ backgroundColor: "black" }}>
-              <h1>WritersBlock</h1>
-              A Blockstack blockchain dApp for writing poetry and music.  
+              <h1>Moops</h1>
+              A short-form video platform running on Steem blockchain  
             </div>
 
             <div className="flip-card">
@@ -28,9 +28,11 @@ export const Portfolio = () => {
                 </div>
                 <div className="flip-card-back">
                 <br /> <br /> <br />
-                  <h2>Blockstack / React / Redux / Datamuse API</h2>
+                  <h2>Blockchain / React / Redux </h2>
                   <p>
-                  RhymeBlock is a blockchain application built with the Blockstack API. 
+                  Moops will be a short-form video application that allows users 
+                  to upload their own content and monetize it via "likes". This project
+                  is a collaborative project I am working on with a buddy of mine.
                   </p>
                   <br /> <br />
                   <a href="">
