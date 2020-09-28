@@ -17,7 +17,7 @@ export const Nav = () => {
 				<Link to="/">Home</Link>
 				<Link to="/projects">Projects</Link>
 				<Link to="/skills">Skills</Link>
-				<a href="">Git Stats</a>
+				{/* <a href="">Git Stats</a> */}
 				<Link to="/contact">Contact</Link>
 				</nav>
 			

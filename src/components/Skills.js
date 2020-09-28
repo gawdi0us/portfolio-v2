@@ -12,9 +12,11 @@ export const Skills = () => {
         <FadeIn  transitionDuration={ 2700 }>
 		<div className="skills-left">
 		<ul>
-		<li>HTML/CSS3</li>	
-		<li>Vanilla Javascript</li>	
+		<li>HTML/CSS3/LESS</li>	
+		<li>Javascript</li>	
 		<li>Bootstrap 4</li>
+		<li>RestFUL API</li>
+		
 		
 		</ul>
 		</div>
@@ -24,7 +26,9 @@ export const Skills = () => {
 		<ul>
 		<li>React/Redux</li>
 		<li>Node.js</li>
-		<li>Blockchain</li>
+		<li>Agile Development</li>
+		<li>Blockchain / Truffle</li>
+		
 		</ul>
 		</div>
 		</FadeIn>

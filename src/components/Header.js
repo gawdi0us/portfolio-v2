@@ -20,7 +20,7 @@ return (
 		<p> Ron Hughes is a Father, and Full-Stack Software Engineer </p> 
 		<p> I am also a lover of Star Wars and serial learner. I enjoy working with React, Bootstrap, and Blockchain technology. Need a developer? Feel free to contact me. </p> <br />
 
-<a href="https://www.github.com/ron-hughes"><img src={Giticon} /></a>  <img src={Linkedicon} />
+<a href="https://www.github.com/gawdi0us"><img src={Giticon} /></a>  <img src={Linkedicon} />
 </div>
 
 	</div>

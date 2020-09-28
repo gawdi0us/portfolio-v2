@@ -2,7 +2,7 @@ import React from "react";
 import Placeholder from "../img/placeholder.png";
 import Macicon from "../img/mac-icon.png";
 import Bookricon from "../img/bookr-back.png";
-import Rickicon from "../img/rick-back.png";
+import Zut from "../img/zut.png";
 import Porticon from "../img/portfolio-icon.png";
 import "../global/screen.css";
 import "../global/portfolio.css";
@@ -16,8 +16,8 @@ export const Portfolio = () => {
          
           <div className="payload">
             <div className="title" style={{ backgroundColor: "black" }}>
-              <h1>Moops</h1>
-              A short-form video platform running on Steem blockchain  
+              <h1>Audit Protocol</h1>
+              A blockchain risk assessment tool for investors
             </div>
 
             <div className="flip-card">
@@ -28,15 +28,18 @@ export const Portfolio = () => {
                 </div>
                 <div className="flip-card-back">
                 <br /> <br /> <br />
-                  <h2>Blockchain / React / Redux </h2>
+                  <h2>Ethereum / Truffle / React / JSX </h2>
                   <p>
-                  Moops will be a short-form video application that allows users 
-                  to upload their own content and monetize it via "likes". This project
-                  is a collaborative project I am working on with a buddy of mine.
+                  Audit Protocol is a risk assessment tool for the Ethereum blockchain. This project aims to create a way for investors to mitigate their risk, by identifying potential scam projects.
                   </p>
                   <br /> <br />
-                  <a href="">
+                  <a href="https://github.com/audit-protocol">
                     <h3>Github Repo</h3>
+                  </a>
+                  WEBSITE IN-PROGRESS
+                  <br />
+                  <a href="https://www.auditprotocol.dev">
+                    https://www.auditprotocol.dev
                   </a>
                 </div>
               </div>
@@ -45,15 +48,15 @@ export const Portfolio = () => {
 
           <div className="payload">
             <div className="title" style={{ backgroundColor: "black" }}>
-              <h1>Rick and Morty API</h1>
-              Displays JSON data from Rick and Morty API
+              <h1>Zero Utility Token</h1>
+              An erc-20 token with no utility, just profits.
             </div>
 
             <div className="flip-card">
               <div className="flip-card-inner">
                 <div className="flip-card-front">
                   <img
-                    src={Rickicon}
+                    src={Zut}
                     className="bookr"
                     width="390px"
                     height="250px"
@@ -62,22 +65,19 @@ export const Portfolio = () => {
                 </div>
                 <div className="flip-card-back">
                   <br /> <br /> <br />
-                  <h2> REACT / JSX / SEMANTICUI / AXIOS</h2>
+                  <h2> Smart Contract / React / JSX </h2>
                   <p>
-                    Built with React and SemanticUI this project was done using
-                    React and the SemanticUI framework. To pull the data from
-                    the Rick and Morty API I implemented an asynchronous api
-                    call using the axios library.
+                 Zero Utility Token was created as an experiment to see if a token with no utility would still be profitable. Current coin value is $300+, and I maintain the website, constantly adding new features.
                   </p>
                   <br /> <br />
-                  <a href="https://github.com/ron-hughes/Sprint-Challenge-Single-Page-Apps">
+                  <a href="https://github.com/Zero-Utility-Token">
                     {" "}
                     <h3>Github Repo</h3>
                   </a>
-                  DEMO PAGE
+                  LIVE SITE
                   <br />
-                  <a href="https://rickandmorty.ronhughes.dev">
-                    https://rickandmorty.ronhughes.dev
+                  <a href="https://www.zeroutility.io">
+                    https://www.zeroutility.io
                   </a>
                 </div>
               </div>

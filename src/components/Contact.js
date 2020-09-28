@@ -16,7 +16,7 @@ export const Contact = () => {
       <ul>
 		<li>Email: </li>	
 		<li>LinkedIn: </li>
-		<li>Twitter: </li>
+
 		
 		</ul>
       </div>
@@ -24,7 +24,6 @@ export const Contact = () => {
       <ul>
 		<li>me@ronhughes.dev</li>	
 		<li><a href="https://www.linkedin.com/in/ron-hughes/">@ron-hughes</a></li>	
-		<li><a href="https://twitter.com/eyecodethings">@eyecodethings</a></li>
 		
 		</ul>
       </div>
